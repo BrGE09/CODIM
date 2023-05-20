@@ -14,6 +14,29 @@ body {
 }
 
 
+/*Animación del color del background*/
+
+.bg {
+    align-items: center;
+    justify-content: center;
+    background-size: 1000% 1000%;
+    background-image: linear-gradient(-45deg, rgb(59, 173, 227) 0%, rgb(87, 111, 230) 25%, rgb(152, 68, 183) 51%, rgb(255, 53, 127) 100%);
+    animation: AnimateBG 20s ease infinite;
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
 /* Estilos del encabezado */
 
 header {
