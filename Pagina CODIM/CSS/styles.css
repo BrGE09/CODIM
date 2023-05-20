@@ -7,14 +7,6 @@ body {
     background-color: #6DA5C0;
 }
 
-.bg {
-    align-items: center;
-    justify-content: center;
-    background-size: 1000% 1000%;
-    background-image: linear-gradient(-45deg, rgb(59, 173, 227) 0%, rgb(87, 111, 230) 25%, rgb(152, 68, 183) 51%, rgb(255, 53, 127) 100%);
-    animation: AnimateBG 20s ease infinite;
-}
-
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -72,11 +64,11 @@ nav ul li a {
 
 section {
     margin-bottom: 20px;
-    background-color: #05161a;
+    background-color: #0B1E3E;
     color: #e2e9ec;
     text-align: justify;
     margin: 16px;
-    border: 5px solid #294D61;
+    border: 5px solid #38FBDB;
     border-radius: 5px;
 }
 
